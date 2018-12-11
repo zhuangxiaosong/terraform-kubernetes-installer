@@ -5,6 +5,7 @@
 #fingerprint = "ed:51:83:3b:d2:04:f4:af:9d:7b:17:96:dd:8a:99:bc"
 #private_key_path = "/tmp/oci_api_key.pem"
 #user_ocid = "ocid1.user.oc1..aaaaaaaa5fy2l5aki6z2bzff5yrrmlahiif44vzodeetygxmpulq3mbnckya"
+#region = "us-phoenix-1"
 
 # CCM user
 
