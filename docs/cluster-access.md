@@ -61,6 +61,8 @@ worker_ssh_ingress = "0.0.0.0/0"
 ```bash
 # Create local SSH private key file logging into OCI instances
 $ terraform output ssh_private_key > generated/instances_id_rsa
+# Change permission for the private key
+# chmod 0600 `pwd`/generated/instances_id_rsa
 # Retrieve public IP for etcd nodes
 $ terraform output etcd_public_ips
 # Log in as user opc to the OEL OS
